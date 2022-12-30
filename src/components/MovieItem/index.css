@@ -1,0 +1,34 @@
+.thumbnail-image {
+  width: 250px;
+}
+
+.thumbnail-container {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.pop-up-bg-container {
+  padding: 35px;
+  background-color: aliceblue;
+  border-radius: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-button {
+  padding: 0;
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.video-container {
+  margin: 20px;
+}
